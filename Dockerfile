@@ -1,6 +1,7 @@
 FROM python:3.10.0b2-alpine3.13
 
-RUN pip install --upgrade pip setuptools pipenv && \
+RUN apk add bash && \ 
+    pip install --upgrade pip setuptools pipenv && \
     rm -r /root/.cache \
     rm -rf /var/cache/apk/*
     

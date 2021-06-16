@@ -15,10 +15,10 @@ Each built image has information about its version in a file called `KTH_PYTHON`
 
 ```bash
 PYTHON INFORMATION
-Build date: Wed Aug 14 23:27:25 UTC 2019
-Pyton: Python 3.7.3
-pip: pip 19.2.2 from /usr/lib/python3.7/site-packages/pip (python 3.7)
-pipenv: pipenv, version 2018.11.26
+Build date: Wed Jun 16 21:27:45 UTC 2021
+Pyton: Python 3.10.0b2
+pip: pip 21.1.2 from /usr/local/lib/python3.10/site-packages/pip (python 3.10)
+pipenv: pipenv, version 2021.5.29
 ```
 
 ## What tag (version) should i use?
