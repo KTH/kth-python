@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Running unit tests inside 🐳 Docker Compose"
+
 ID=$(docker build -q .) && \
     WORKSPACE=$(pwd) LOCAL_IMAGE_ID=$ID \
     docker-compose \
