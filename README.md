@@ -1,4 +1,4 @@
-# KTH Python 3.10 ![Continous Integration](https://github.com/KTH/kth-azure-app/actions/workflows/main.yml/badge.svg)
+# KTH Python 3.10 ![Continous Integration](https://github.com/KTH/kth-python-3.10/actions/workflows/main.yml/badge.svg)
 
 ## Versions 
 The 🐳 image is build every night to have the latest security patches installed. After being built the image is pushed to [KTH:s public account on Docker Hub](https://hub.docker.com/r/kthse/kth-python/tags/).
