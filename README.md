@@ -3,10 +3,7 @@
 ## Versions 
 The 🐳 image is build every night to have the latest security patches installed. After being built the image is pushed to [KTH:s public account on Docker Hub](https://hub.docker.com/r/kthse/kth-python/tags/).
 
-## Build and publishing
-Each branch builds and publishes to [Docker Hub](https://hub.docker.com/r/kthse/kth-python/tags/) daily by a Evolene.
-
-## What versions are installed?
+## What versions are installed in the image?
 The image tag tells you what version you are using so `kth-python:3.10.* is Python version 3.10` and so on. The path version is normally not changed unless we install something in the image. Otherwise we try to stay on the latest major.minor version.
 
 *Pip* and *Pipenv* versions are always the latest availible.
