@@ -50,7 +50,7 @@ expectToContain "/KTH_PYTHON" "pipenv, version" "Image should have 'pipenv' inst
 
 # Result
 if [[ "$FAILED" != *"true"* ]]; then
-    info "All end-to-end tests passed."
+    info "🎉 All unit tests passed."
     exit 0
 else
     echo ""
