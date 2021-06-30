@@ -1,4 +1,4 @@
-FROM python:3.10.0b2-alpine3.13
+FROM python:3.10.0b3-alpine3.13
 
 RUN apk add bash && \ 
     pip install --upgrade pip setuptools pipenv && \
